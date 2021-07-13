@@ -4,7 +4,7 @@
 
 ## Project Name
 
-Don't break the cycle
+Don't Break the Cycle
 
 ## Project Description
 
@@ -12,15 +12,13 @@ An app all about bicycle safteym maintenence, and tips for riding. you can see w
 
 ## Wireframes
 
-
 [Wireframes] https://wireframe.cc/BeVyBv
 
 ## Component Hierarchy
+
  [Hierarchy] https://drive.google.com/file/d/1IEomDjxqj2tN9cO9fMUsMuAiBvqaoKDl/view?usp=sharing
 
 ## API and Data Sample
-
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
 
 ```json
 {
@@ -61,12 +59,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 ```
 
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Create api 
 - Create hompage
@@ -76,17 +69,17 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 - create Gear page
 - Render data on page 
 - create clickable data
-- allow users to add tips
+- allow users to add to api
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+
 
 - Add second API
+- add loader
 - Use local storage to save user favorites
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -105,14 +98,14 @@ This schedule will be used to keep track of your progress throughout the week an
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3.5hrs| 2.5hrs | 2.5hrs |
-| creating the App | H | 3hrs| 2.5hrs | 2.5hrs |
+| creating the App | H | 3.5hrs| 2.5hrs | 2.5hrs |
 | Creating the pages | H | 3.5hrs| 2.5hrs | 2.5hrs |
-| Connecting the pages | H | 3.5hrs| 2.5hrs | 2.5hrs |
+| Connecting the pages | H | 4hrs| 2.5hrs | 2.5hrs |
 | Navbar | H | 3hrs| 2.5hrs | 2.5hrs |
 | Adding data | H | 3hrs| 2.5hrs | 2.5hrs |
 | Debugging | H | 4hrs| 2.5hrs | 2.5hrs |
-| Styling | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Styling | H | 3.5hrs| 2.5hrs | 2.5hrs |
+| Total | H | 31hrs| 5hrs | 5hrs |
 
 ## SWOT Analysis
 
