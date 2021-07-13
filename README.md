@@ -8,7 +8,7 @@ Don't Break the Cycle
 
 ## Project Description
 
-An app all about bicycle safteym maintenence, and tips for riding. you can see ways to tak care of your bike and ways to ride safely. people can even put in their own tips for bicycling.
+An app all about bicycle safety and maintenence, and tips for riding. You can see ways to tak care of your bike and ways to ride safely. People can even put in their own tips for bicycling.
 
 ## Wireframes
 
