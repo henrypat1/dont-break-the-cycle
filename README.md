@@ -89,7 +89,7 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 |July 14| Pseudocode / actual code | Incomplete
 |July 15| Initial Clickable Model  | Incomplete
 |July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|July 20| Presentations | Incomplete
 
 ## Timeframes
 
