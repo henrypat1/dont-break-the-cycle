@@ -1,4 +1,4 @@
-# Dont-break-the-cycle
+# Dont-Break-the-Cycle App
 
 # Project Overview
 
