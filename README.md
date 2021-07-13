@@ -58,7 +58,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
     "offset": "recFeUoNAWYFYZfLF"
 }
 
-```
+
 
 ### MVP/PostMVP
 
