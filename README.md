@@ -66,7 +66,6 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 - create navbar
 - create Maintenance page
 - create Safety page
-- create Gear page
 - Render data on page 
 - create clickable data
 - allow users to add to api
@@ -76,6 +75,7 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 
 - Add second API
 - add loader
+- add gear page
 - Use local storage to save user favorites
 
 ## Project Schedule
