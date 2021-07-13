@@ -22,7 +22,6 @@ An app all about bicycle safteym maintenence, and tips for riding. you can see w
 
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
 
-...
 {
     "records": [
         {
@@ -57,6 +56,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
     ],
     "offset": "recFeUoNAWYFYZfLF"
 }
+
 
 
 
