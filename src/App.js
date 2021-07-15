@@ -13,9 +13,12 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
-      {/* <Route>
+      <Route path="/maintenance">
         <Maintenance/>
-      </Route> */}
+      </Route>
+      <Route path="/safety">
+        <Safety/>
+      </Route>
     </div>
   );
 }

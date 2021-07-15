@@ -11,6 +11,7 @@ const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/Table%201`
 
 export default function Maintenance() {
   const [bicycle, setBicycle] = useState()
+  const [maintenance, setMaintenance] = useState()
   useEffect(() => {
     fetchData();
   }, []);
@@ -23,7 +24,22 @@ export default function Maintenance() {
     });
     console.log(res.data.records)
     setBicycle(res.data.records);
-    console.log(bicycle)
+   
+   
   };
+  useEffect(() => {
+    setMaintenance(bicycle?.filter((bike) => bike.fields.cycling === 'maintenance'))
+    console.log(bicycle)
+  }, [bicycle])
+
   
+  return (
+    <div>
+      {maintenance != undefined?maintenance.map((bike) => (
+       <div> <h1>{bike.fields?.category}</h1>
+        <p>{bike.fields?.tip}</p></div>
+      )):<p>no data</p>}
+    </div>
+  )
+
 }
