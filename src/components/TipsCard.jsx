@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
-
-export default function TipCard(bicycle) {
+import { useState } from "react";
+export default function TipCard({ bicycle }) {
   const { id, fields } = bicycle;
+  const [toggle, setToggle] = useState(false)
   return (
-    <Link to={`/maintenance/${id}`} to={`/safety/${id}`}>
+    // <Link to={`/maintenance/${id}`} to={`/safety/${id}`}>
       <div>
-        <h1>{fields.category}</h1>
+        <h1 onClick={() => setToggle(!toggle)}>{fields.subject}</h1>
+      {toggle && <div>
         <p>{fields.tip}</p>
+        <h3>{fields.name}</h3>
+      </div>}
       </div>
-    </Link>
+    // {/* </Link> */}
     
 
   )

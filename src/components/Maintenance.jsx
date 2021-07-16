@@ -30,7 +30,7 @@ export default function Maintenance() {
    
   };
   useEffect(() => {
-    setMaintenance(bicycle?.filter((bike) => bike.fields.cycling === 'maintenance'))
+    setMaintenance(bicycle?.filter((bike) => bike.fields.category === 'maintenance'))
     console.log(bicycle)
   }, [bicycle])
 
@@ -39,9 +39,9 @@ export default function Maintenance() {
     <div>
       {maintenance != undefined ? maintenance.map((bike) => (
         <div>
-          return <TipsCard key={bicycle.id} bicycle={bicycle}/>
+         <TipsCard key={bike.id} bicycle={bike}/>
         </div> 
-        // <div> <h1>{bike.fields?.category}</h1>
+        // <div> <h1>{bike.fields?.subject}</h1>
         //   <p>{bike.fields?.tip}</p>
         // </div>
       )) : null}

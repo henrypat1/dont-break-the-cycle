@@ -8,18 +8,18 @@ const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/Table%201`
 
 export default function NewTips() {
-  const [category, setCategory] = useState("")
+  const [subject, setSubject] = useState("")
   const [tip, setTip] = useState("")
   const [name, setName] = useState("")
-  const [cycling, setCycling] = useState("")
+  const [category, setCategory] = useState("")
   const history = useHistory()
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
       name,
-      cycling,
       category,
+      subject,
       tip,
     };
     const res = await axios.post(
@@ -30,7 +30,7 @@ export default function NewTips() {
       }
     );
     console.log(res);
-    setCategory("")
+    setSubject("")
     setName("")
     setTip("")
     history.push(`/${res.data.fields.cycling}/${res.data.id}`)
@@ -48,17 +48,17 @@ export default function NewTips() {
         />
         <br />
         <label>tip type</label>
-        <select value={cycling} onChange={(e) => setCycling(e.target.value)}>
+        <select value={category} onChange={(e) => setCategory(e.target.value)}>
         <option>select one</option>
         <option value="maintenance" >Maintenance</option>
         <option value="safety" >Safety</option>
         </select>
         <br />
-        <label>Category</label>
+        <label>Subject</label>
         <input
           type="text"
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
         />
         <br />
         <label>Tip</label>
