@@ -19,6 +19,9 @@ function App() {
       <Route path="/safety">
         <Safety/>
       </Route>
+      <Route path="/new-tips">
+        <NewTips/>
+      </Route>
     </div>
   );
 }

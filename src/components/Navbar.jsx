@@ -9,6 +9,7 @@ export default function Navbar() {
       </Link>
       <Link to="/maintenance">Maintanance</Link>
       <Link to="/safety">Safety</Link>
+      <Link to="/new-tips">Add Tips</Link>
     </nav>
   )
 

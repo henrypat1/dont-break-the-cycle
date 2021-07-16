@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import TipsCard from "./TipsCard"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/Table%201`
+
 
 
 export default function Maintenance() {
@@ -35,11 +37,15 @@ export default function Maintenance() {
   
   return (
     <div>
-      {maintenance != undefined?maintenance.map((bike) => (
-       <div> <h1>{bike.fields?.category}</h1>
-        <p>{bike.fields?.tip}</p></div>
-      )):<p>no data</p>}
-    </div>
-  )
+      {maintenance != undefined ? maintenance.map((bike) => (
+        <div>
+          return <TipsCard key={bicycle.id} bicycle={bicycle}/>
+        </div> 
+        // <div> <h1>{bike.fields?.category}</h1>
+        //   <p>{bike.fields?.tip}</p>
+        // </div>
+      )) : null}
+      </div>
 
+  )
 }
