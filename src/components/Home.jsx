@@ -29,6 +29,13 @@ export default function Home() {
   };
 
   return (
-    <h1>Dont Break the Cycle</h1>
+    <div>
+      <h1>Dont Break the Cycle</h1>
+      <p>
+        Cycling can be fun and adventurous, but if your not careful it can also be dangerous.
+        
+    </p>
+    </div>
+   
   )
 }
