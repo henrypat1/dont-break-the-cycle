@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -29,11 +29,12 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="home">
       <h1>Dont Break the Cycle</h1>
       <p>
         Cycling can be fun and adventurous, but if your not careful it can also be dangerous.
-        
+        Whether it's a problem with your bike or hazards on the road, there is a lot that can go wrong.
+
     </p>
     </div>
    

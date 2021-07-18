@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useState, useEffect } from "react";
 import axios from "axios";
 import TipsCard from "./TipsCard"
@@ -26,8 +26,8 @@ export default function Maintenance() {
     });
     console.log(res.data.records)
     setBicycle(res.data.records);
-   
-   
+  
+  
   };
   useEffect(() => {
     setMaintenance(bicycle?.filter((bike) => bike.fields.category === 'maintenance'))
@@ -37,9 +37,10 @@ export default function Maintenance() {
   
   return (
     <div>
-      {maintenance != undefined ? maintenance.map((bike) => (
-        <div>
-         <TipsCard key={bike.id} bicycle={bike}/>
+      <h1>Maintenance</h1>
+      {maintenance !== undefined ? maintenance.map((bike) => (
+        <div key={bike.id}>
+          <TipsCard key={bike.id} bicycle={bike}/>
         </div> 
         // <div> <h1>{bike.fields?.subject}</h1>
         //   <p>{bike.fields?.tip}</p>

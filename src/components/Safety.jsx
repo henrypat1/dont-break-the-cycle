@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useState, useEffect } from "react";
 import axios from "axios";
 import TipsCard from "./TipsCard"
@@ -35,8 +35,9 @@ export default function Safety() {
   
   return (
     <div>
-      {safety != undefined?safety.map((bike) => (
-        <div>
+      <h1>Safety</h1>
+      {safety !== undefined?safety.map((bike) => (
+        <div key={bike.id}>
         <TipsCard key={bike.id} bicycle={bike}/>
        </div>
      //  <div> <h1>{bike.fields?.subject}</h1>

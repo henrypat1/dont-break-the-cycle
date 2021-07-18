@@ -33,21 +33,21 @@ export default function NewTips() {
     setSubject("")
     setName("")
     setTip("")
-    history.push(`/${res.data.fields.cycling}/${res.data.id}`)
+    history.push(`/${res.data.fields.category}`)
   }
 
   return (
     <div>
-      Your tips
+      <h1>Your Tips</h1>
       <form onSubmit={handleSubmit}>
-        <label>name</label>
+        <label>Name</label>
         <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <br />
-        <label>tip type</label>
+        <label>Category</label>
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
         <option>select one</option>
         <option value="maintenance" >Maintenance</option>
