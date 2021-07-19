@@ -42,9 +42,7 @@ export default function Maintenance() {
         <div key={bike.id}>
           <TipsCard key={bike.id} bicycle={bike}/>
         </div> 
-        // <div> <h1>{bike.fields?.subject}</h1>
-        //   <p>{bike.fields?.tip}</p>
-        // </div>
+      
       )) : null}
       </div>
 

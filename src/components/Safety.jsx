@@ -22,7 +22,7 @@ export default function Safety() {
         Authorization: `Bearer ${AIRTABLE_KEY}`
       },
     });
-    console.log(res.data.records)
+    // console.log(res.data.records)
     setBicycle(res.data.records)
    
    
@@ -39,10 +39,9 @@ export default function Safety() {
       {safety !== undefined?safety.map((bike) => (
         <div key={bike.id}>
         <TipsCard key={bike.id} bicycle={bike}/>
-       </div>
-     //  <div> <h1>{bike.fields?.subject}</h1>
-      //   <p>{bike.fields?.tip}</p></div>
-      )):<p>no data</p>}
+        </div>
+    
+      )):null}
     </div>
   )
 
