@@ -29,7 +29,7 @@ export default function Safety() {
   };
   useEffect(() => {
     setSafety(bicycle?.filter((bike) => bike.fields.category === 'safety'))
-    console.log(bicycle)
+    // console.log(bicycle)
   }, [bicycle])
 
   

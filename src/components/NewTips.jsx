@@ -29,7 +29,7 @@ export default function NewTips() {
         headers: { Authorization: `Bearer ${AIRTABLE_KEY}` },
       }
     );
-    console.log(res);
+    // console.log(res);
     setSubject("")
     setName("")
     setTip("")

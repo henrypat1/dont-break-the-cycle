@@ -23,9 +23,9 @@ export default function Home() {
         Authorization: `Bearer ${AIRTABLE_KEY}`
       },
     });
-    console.log(res.data.records)
+    // console.log(res.data.records)
     setBicycle(res.data.records);
-    console.log(bicycle)
+    // console.log(bicycle)
   };
 
   return (

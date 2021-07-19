@@ -31,7 +31,7 @@ export default function Maintenance() {
   };
   useEffect(() => {
     setMaintenance(bicycle?.filter((bike) => bike.fields.category === 'maintenance'))
-    console.log(bicycle)
+    // console.log(bicycle)
   }, [bicycle])
 
   
