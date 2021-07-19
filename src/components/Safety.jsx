@@ -22,14 +22,10 @@ export default function Safety() {
         Authorization: `Bearer ${AIRTABLE_KEY}`
       },
     });
-    // console.log(res.data.records)
     setBicycle(res.data.records)
-   
-   
   };
   useEffect(() => {
     setSafety(bicycle?.filter((bike) => bike.fields.category === 'safety'))
-    // console.log(bicycle)
   }, [bicycle])
 
   

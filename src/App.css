@@ -5,6 +5,10 @@
 }
 body {
   background-color: navy;
+  background-image: url(https://www.pinch-flat.com/wp-content/uploads/2017/07/broken-bicycle-spoke-causes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: opacity(90%);
 }
 
 h1 {
@@ -20,25 +24,22 @@ p {
   color: black;
 }
 
-
-
 nav :visited {
   color: white;
   background-color: black;
   display: flex;
-  flex-direction: column ;
-  justify-content: center;
-  align-items: stretch;
 }
 
 nav {
   color: white;
   background-color: black;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  width: 300px;
+  padding: 10px;
+  margin: auto;
 }
 
 .subject {
@@ -102,6 +103,17 @@ label {
 @media screen and (max-width: 600px) {
   .App{
     background-color: navy;
+  }
+
+  body{
+    background-color: navy;
+    background-image: none;
+  }
+
+  nav {
+    width: 100px;
+    padding: 10px;
+    margin: auto;
   }
 
   h1 {
