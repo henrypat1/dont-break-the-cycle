@@ -14,7 +14,7 @@ export default function Home() {
 
   const [bicycle, setBicycle] = useState()
   useEffect(() => {
-    fetchData();
+    fetchData(); // eslint-disable-next-line
   }, []);
   const fetchData = async () => {
     
@@ -25,7 +25,7 @@ export default function Home() {
     });
     // console.log(res.data.records)
     setBicycle(res.data.records);
-    // console.log(bicycle)
+    console.log(bicycle)
   };
 
   return (
