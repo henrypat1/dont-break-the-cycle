@@ -1,6 +1,7 @@
 import './App.css';
 import { Route } from "react-router-dom"
 import Home from "./components/Home"
+import Footer from "./components/Footer"
 import Navbar from './components/Navbar';
 import Maintenance from './components/Maintenance';
 import Safety from './components/Safety';
@@ -22,6 +23,7 @@ function App() {
       <Route path="/new-tips">
         <NewTips/>
       </Route>
+      <Footer/>
     </div>
   );
 }
