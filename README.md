@@ -22,34 +22,34 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 
 ```json
 {
-    "records": [
+   "records": [
         {
             "id": "recJ9AW9Vej3zqlRo",
             "fields": {
-                "maintenence": "check pressure before you ride",
-                "tools": "bike pump",
-                "parts": "tires",
-                "hazards": "punctured or deflated",
-                "gear": "helmet",
-                "tips": "change every 1000 miles"
+                "subject": "tires",
+                "category": "maintenance",
+                "name": "henry",
+                "tip": "check tires every day"
             },
             "createdTime": "2021-07-12T22:46:40.000Z"
         },
         {
             "id": "recY1w1VsLxzr7lsd",
             "fields": {
-                "maintenence": "clean and oil",
-                "tools": "chain lubricant",
-                "parts": "chain",
-                "hazards": "worn out or break",
-                "gear": "gloves",
-                "tips": "you dont want to hear scraping"
+                "subject": "siganls",
+                "category": "safety",
+                "name": "ben",
+                "tip": "always use turn signals"
             },
             "createdTime": "2021-07-12T22:46:40.000Z"
         },
         {
             "id": "recFeUoNAWYFYZfLF",
-            "fields": {},
+            "fields": {
+                "subject": "chain",
+                "category": "maintenance",
+                "tip": "clean chain"
+            },
             "createdTime": "2021-07-12T22:46:40.000Z"
         }
     ],
@@ -62,7 +62,7 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 #### MVP 
 
 - Create api 
-- Create hompage
+- Create homepage
 - create navbar
 - create Maintenance page
 - create Safety page
@@ -83,12 +83,12 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
+|July 13| Core Application Structure (HTML, CSS, etc.) | Complete
+|July 14| Pseudocode / actual code | Complete
+|July 15| Initial Clickable Model  | complete
+|July 16| MVP | Complete
 |July 20| Presentations | Incomplete
 
 ## Timeframes
@@ -96,16 +96,16 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3.5hrs| 2.5hrs | 2.5hrs |
-| creating the App | H | 3.5hrs| 2.5hrs | 2.5hrs |
-| Creating the pages | H | 3.5hrs| 2.5hrs | 2.5hrs |
-| Connecting the pages | H | 4hrs| 2.5hrs | 2.5hrs |
+| Adding Form | H | 3hrs| 4hrs | 4hrs |
+| Working with API | H | 3.5hrs| 3.5hrs | 3.5hrs |
+| creating the App | H | 3.5hrs| 4hrs | 4hrs |
+| Creating the pages | H | 3.5hrs| 4hrs | 4hrs |
+| Connecting the pages | H | 4hrs| 4hrs | 4hrs |
 | Navbar | H | 3hrs| 2.5hrs | 2.5hrs |
 | Adding data | H | 3hrs| 2.5hrs | 2.5hrs |
-| Debugging | H | 4hrs| 2.5hrs | 2.5hrs |
-| Styling | H | 3.5hrs| 2.5hrs | 2.5hrs |
-| Total | H | 31hrs| 5hrs | 5hrs |
+| Debugging | H | 4hrs| 4hrs | 4hrs |
+| Styling | H | 3.5hrs| 3.5hrs | 4hrs |
+| Total | H | 31hrs| 32.5hrs | 32.5hrs |
 
 ## SWOT Analysis
 
