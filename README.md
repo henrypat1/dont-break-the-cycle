@@ -84,12 +84,12 @@ An app all about bicycle safety and maintenence, and tips for riding. You can se
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|July 13| Project Approval | Incomplete
+|July 13| Project Approval | Complete
 |July 13| Core Application Structure (HTML, CSS, etc.) | Complete
 |July 14| Pseudocode / actual code | Complete
 |July 15| Initial Clickable Model  | complete
 |July 16| MVP | Complete
-|July 20| Presentations | Incomplete
+|July 20| Presentations | Complete
 
 ## Timeframes
 
